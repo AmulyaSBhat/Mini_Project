@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Patient Management System</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <h1>Welcome to the Patient Management System</h1>
+    <a href="{{ url_for('add_patient') }}">Add Patient</a><br>
+    <a href="{{ url_for('view_patients') }}">View Patients</a><br>
+    <a href="{{ url_for('chatbot') }}">Chat with Chatbot</a>
+</body>
+</html>
